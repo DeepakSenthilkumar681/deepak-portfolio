@@ -1,0 +1,425 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Deepak S | Portfolio</title>
+    <!-- Google Fonts & Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">DEEPAK<span> S</span></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Photo -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="badge">Final Year CSE Student</div>
+                <h1>Software Developer<br>& <span>AI Enthusiast</span></h1>
+                <p>Final-year Computer Science student with strong Python & C++ expertise. Passionate about AI, backend development, and solving real-world problems. Ready to contribute to top MNCs with modern tech stacks.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">View Projects <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn-outline">Contact Me</a>
+                </div>
+                <div class="hero-stats">
+                    <div><span>AI/ML</span><br>Specialization</div>
+                    <div><span>2+</span><br>Projects Completed</div>
+                    <div><span>Global</span><br>Exchange Program</div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- PHOTO PLACEHOLDER – Replace 'your-photo.jpg' with actual image file -->
+                <div class="photo-frame">
+                    <img src="img/profile.png" alt="Deepak S - Portfolio Photo" id="profilePhoto" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x500?text=Upload+Your+Photo';">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm a final-year Computer Science student at Karpagam University with a strong interest in Software Development, Artificial Intelligence, and backend technologies. During my international exchange program at INTI International University, Malaysia, I gained valuable global exposure and strengthened my knowledge in Machine Learning and emerging technologies. I enjoy building innovative solutions and continuously learning new skills to solve real-world problems.</p>
+                    <p>I thrive on building impactful projects, from product demand forecasting systems to real-time gold price dashboards. With a strong foundation in Python, C++, and predictive modeling, I am passionate about solving complex business challenges through clean code, intelligent solutions, and data-driven insights.</p>
+                    <div class="personal-info">
+                        <div><i class="fas fa-graduation-cap"></i> B.E CSE (2023-2027)</div>
+                        <div><i class="fas fa-map-marker-alt"></i> Erode, Tamil Nadu</div>
+                        <div><i class="fas fa-language"></i> English, Tamil</div>
+                        
+                    </div>
+                </div>
+                <div class="about-quote">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Passionate about building intelligent solutions through code, continuous learning, and innovative thinking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section-padding bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Education & Exchange</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="edu-timeline">
+                <div class="edu-card">
+                    <div class="edu-year">2023 - 2027</div>
+                    <h3>B.E. Computer Science & Engineering</h3>
+                    <p>Karpagam University, Coimbatore</p>
+                    <span class="cgpa">CGPA: 6.45 (up to 5th sem)</span>
+                </div>
+                <div class="edu-card highlight">
+                    <div class="edu-year">Aug - Dec 2025</div>
+                    <h3>International Academic Exchange Program</h3>
+                    <p>INTI International University, Malaysia</p>
+                    <span class="cgpa">CGPA: 3.10 / 4.00</span>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-year">2022 - 2023</div>
+                    <h3>Higher Secondary Education (12th)</h3>
+                    <p>PKP Swamy Matric HSS, Erode</p>
+                    <span class="cgpa">Percentage: 55</span>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-year">2020 - 2021</div>
+                    <h3>Secondary Education (10th)</h3>
+                    <p>PKP Swamy Matric HSS, Erode</p>
+                    <span class="cgpa">Percentage: Pass</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Projects Section -->
+<section id="projects" class="projects section-padding">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Key Projects</h2>
+<p>
+A showcase of my hands-on projects that solve real-world problems
+using data, technology, and innovation.
+</p>
+<div class="title-line"></div>
+</div>
+
+<div class="projects-grid">
+
+<!-- Project 1 -->
+
+<div class="project-card ml-card">
+
+<div class="project-top">
+<i class="fas fa-chart-line"></i>
+<span class="project-type">Machine Learning Project</span>
+</div>
+
+<h3>Product Demand Forecasting</h3>
+
+<p>
+Developed a Machine Learning model using Random Forest and Linear Regression to forecast product demand using historical sales data.
+</p>
+
+<h4>Tech Stack</h4>
+
+<div class="tech-stack">
+<span>Python</span>
+<span>Scikit-learn</span>
+<span>Pandas</span>
+<span>NumPy</span>
+</div>
+
+<div class="project-features">
+<div>🎯 Demand prediction</div>
+<div>📊 Data analysis</div>
+<div>🧠 Predictive modeling</div>
+</div>
+
+</div>
+
+
+<!-- Project 2 -->
+
+<div class="project-card web-card">
+
+<div class="project-top">
+<i class="fas fa-coins"></i>
+<span class="project-type">Web Application</span>
+</div>
+
+<h3>Gold Price Tracking Web App</h3>
+
+<p>
+Built a Django-based web application integrating live gold and silver APIs with MySQL for real-time tracking and dynamic updates.
+</p>
+
+<h4>Tech Stack</h4>
+
+<div class="tech-stack">
+<span>Django</span>
+<span>MySQL</span>
+<span>REST API</span>
+<span>JavaScript</span>
+</div>
+
+<div class="project-features">
+<div>📡 Live tracking</div>
+<div>🗄 Database</div>
+<div>⚡ Dynamic updates</div>
+</div>
+
+</div>
+
+
+<!-- Project 3 -->
+
+<div class="project-card ai-card">
+
+<div class="project-top">
+<i class="fas fa-home"></i>
+<span class="project-type">Machine Learning Project</span>
+</div>
+
+<h3>Smart Home Energy Consumption Forecasting</h3>
+
+<p>
+Developed and analyzed machine learning models to predict appliance-level energy consumption using temporal and behavioral data.
+</p>
+
+<h4>Tech Stack</h4>
+
+<div class="tech-stack">
+<span>Python</span>
+<span>ML</span>
+<span>XGBoost</span>
+<span>MLP</span>
+<span>Decision Tree</span>
+</div>
+
+<div class="project-features">
+<div>⚡ Energy prediction</div>
+<div>📊 Data analysis</div>
+<div>🤖 AI forecasting</div>
+</div>
+
+</div>
+
+</div>
+
+
+<a href="https://github.com/DeepakSenthilkumar681"
+target="_blank"
+class="github-btn">
+
+<i class="fab fa-github"></i>
+Explore More Projects on GitHub
+<i class="fas fa-arrow-right"></i>
+
+</a>
+
+</div>
+</section>
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Technical Skills</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="skills-wrapper">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-items">
+                        <span>Python</span><span>C++</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> AI & ML</h3>
+                    <div class="skill-items">
+                        <span>Machine Learning</span><span>Predictive Modeling</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Libraries </h3>
+                    <div class="skill-items">
+                        <span>Pandas</span><span>NumPy</span><span>Scikit-learn</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fab fa-chrome"></i> Web Development</h3>
+                    <div class="skill-items">
+                        <span>HTML/CSS</span><span>Django (Basics)</span><span>REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools</h3>
+                    <div class="skill-items">
+                        <span>GitHub</span><span>VS Code</span><span>Jupyter Notebook</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+   <section id="certifications" class="certifications section-padding">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Certifications & Achievements</h2>
+            <p>
+                Showcasing certifications, achievements, and global learning
+                experiences that strengthened my technical and professional growth.
+            </p>
+            <div class="title-line"></div>
+        </div>
+
+        <!-- Highlighted cards -->
+        <div class="highlight-grid">
+
+            <div class="highlight-card achievement">
+                <span class="badge">🏆 ACHIEVEMENT</span>
+
+                <h3>Second Prize – Code Development (Python)</h3>
+                <p>Karpagam Academy of Higher Education</p>
+
+                <div class="date">
+                    📅 May 2024
+                </div>
+            </div>
+
+            <div class="highlight-card mobility">
+                <span class="badge">🎓 HIGHLIGHT</span>
+
+                <h3>Student Mobility Program, INTI International University, Malaysia</h3>
+                <p>International Academic Exchange Program</p>
+
+                <div class="date">
+                    📅 Aug – Dec 2025
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Certificate cards -->
+        <div class="cert-grid">
+
+            <div class="cert-card">
+                <h4>CCNA: Introduction to Networks</h4>
+                <p>Cisco Networking Academy</p>
+                <span>Nov 2025</span>
+            </div>
+
+            <div class="cert-card">
+                <h4>Welcome to ServiceNow</h4>
+                <p>Micro-Certification</p>
+                <span>Feb 2026</span>
+            </div>
+
+            <div class="cert-card">
+                <h4>Introduction to Cloud Computing</h4>
+                <p>Cloud Computing</p>
+                <span>Jan 2026</span>
+            </div>
+
+            <div class="cert-card">
+                <h4>Workshop on Decision Making with Power BI Analytics</h4>
+                <p>Kongunadu College of Engineering & Technology</p>
+                <span>Sep 2024</span>
+            </div>
+
+            <div class="cert-card">
+                <h4>Full Stack Development Training Program</h4>
+                <p>Skill Development Program</p>
+                <span>Feb 2025</span>
+            </div>
+
+            <div class="cert-card">
+                <h4>HackFuse'2K24 Participation</h4>
+                <p>Tech Connection & Code Conversion</p>
+                <span>Apr 2024</span>
+            </div>
+
+        </div>
+
+        <!-- Bottom strip -->
+        <div class="more-highlights">
+            <span>Machine Learning</span>
+            <span>Software Development</span>
+            <span>Problem Solving</span>
+            <span>Continuous Learning</span>
+        </div>
+
+    </div>
+</section>
+    <!-- Contact Section -->
+     <section id="contact" class="contact section-padding bg-dark">
+        <div class="container">
+            <div class="section-title light-title">
+                <h2>Let's Connect</h2>
+                <div class="title-line light-line"></div>
+            </div>
+            <div class="contact-flex">
+                <div class="contact-info">
+                    <h3>Open for opportunities</h3>
+                    <p>Actively seeking opportunities in Software Development and AI/ML to apply my skills, contribute to impactful projects, and grow as a technology professional.</p>
+                    <div class="contact-detail"><i class="fas fa-envelope"></i> deepaksenthil681@gmail.com</div>
+                    <div class="contact-detail"><i class="fab fa-linkedin"></i> https://www.linkedin.com/in/deepaksenthilkumar6/</div>
+                    <div class="contact-detail"><i class="fab fa-github"></i> https://github.com/DeepakSenthilkumar681</div>
+                    <div class="contact-detail"><i class="fas fa-phone-alt"></i> +91 8825433869</div>
+                    <div class="contact-note" style="margin-top: 24px; padding: 16px; background: rgba(255,255,255,0.1); border-radius: 16px;">
+                        <i class="fas fa-bolt"></i> Quick response guaranteed within 24 hours
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <textarea rows="4" placeholder="Message / Opportunity details" required></textarea>
+                    <button type="submit" class="btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+                    <p id="formFeedback" class="form-feedback"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>2026 Deepak S | Software Developer & AI Enthusiast | Python • AI • Innovation</p>
+        </div>
+    </footer>
+
+    <!-- EmailJS Library -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
