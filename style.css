@@ -602,7 +602,7 @@ color:white;
 
 .highlight-grid{
     display:grid;
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns:repeat(2, minmax(0, 1fr));
     gap:25px;
     margin-bottom:40px;
 }
@@ -612,6 +612,12 @@ color:white;
     padding:30px;
     border-radius:20px;
     box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.highlight-grid .highlight-card:last-child {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: min(100%, 600px);
 }
 
 .achievement{

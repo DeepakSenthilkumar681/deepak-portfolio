@@ -104,6 +104,8 @@ if (contactForm) {
             const templateParams = {
                 from_name: name,
                 from_email: email,
+                reply_to: email,
+                sender_email: email,
                 message: message,
                 title: "Portfolio Contact",
                 to_email: "deepaksenthil681@gmail.com"
