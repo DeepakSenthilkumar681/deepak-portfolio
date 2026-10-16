@@ -614,12 +614,6 @@ color:white;
     box-shadow:0 5px 20px rgba(0,0,0,.08);
 }
 
-.highlight-grid .highlight-card:last-child {
-    grid-column: 1 / -1;
-    justify-self: center;
-    width: min(100%, 600px);
-}
-
 .achievement{
     border:2px solid #fbbf24;
 }
